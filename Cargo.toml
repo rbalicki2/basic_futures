@@ -1,0 +1,12 @@
+[package]
+name = "basic_futures"
+version = "0.1.0"
+authors = ["Robert Balicki <robert.balicki@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1.25"
+wasm-bindgen-futures = "0.3.5"
+web-sys = { version = "0.3.5", features = [ "Window" ] }
+js-sys = "0.3.5"
+wasm-bindgen = { version = "0.2.28", features = ["nightly"] }
