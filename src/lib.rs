@@ -2,8 +2,8 @@ use futures::Future;
 use js_sys::Promise;
 use wasm_bindgen::{
   closure::Closure,
-  JsValue,
   JsCast,
+  JsValue,
 };
 use wasm_bindgen_futures::JsFuture;
 
